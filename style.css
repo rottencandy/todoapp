@@ -1,0 +1,74 @@
+body {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  font-size: 20px;
+  line-height: 1.5;
+  color: #555;
+  margin: 0 auto;
+  max-width: 50em;
+}
+
+h1 {
+  color: #333;
+  font-weight: 500;
+  border-bottom: 5px solid #333;
+}
+
+button {
+  color: white;
+  background: #29d;
+  font-size: 25px;
+  padding: 10px 20px;
+  border: 0;
+  border-radius: 20px;
+  box-shadow: inset -3px -3px 0 #0d69ac;
+  cursor: pointer;
+}
+button:active {
+  box-shadow: inset 3px 3px 0 #0d69ac;
+}
+button.red {
+  background: #bd0909;
+  font-size: 20px;
+  box-shadow: inset -3px -3px 0 #830000;
+}
+
+textarea {
+  font-size: 20px;
+  padding: 20px;
+  margin: 1em;
+  background: #eee;
+  border: 0;
+  border-radius: 10px;
+  width: 75%;
+  height: 70px;
+  display: block;
+}
+
+ul {
+  list-style: none;
+  margin-top: 50px;
+  padding: 0;
+}
+li {
+  border-left: 5px solid #29d;
+  background: #eee;
+  padding: 20px;
+  margin: 20px;
+  box-shadow: 5px 5px 5px #ccc;
+}
+li.checked {
+  background: #b1c2cc;
+  border-left: 5px solid #1a6;
+}
+
+input.checkbox {
+  height: 25px;
+  width: 25px;
+  float: right;
+}
+
+li > p {
+  margin: 10px;
+  font-size: 30px;
+  color: black;
+}
